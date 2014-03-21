@@ -1,0 +1,71 @@
+{
+	"choices":{
+	
+      "1": {
+	        "id": 1, 
+	       	"question": "this is question one",
+	       	"answers": {
+	       		"choice-1": {
+	       			"label": "this is choice number 1, what will happen?",
+	       			"nextID": "choice/2"
+	       		},
+	       		"choice-2": {
+	       			"label": "this is choice number 2, what will happen?",
+	       			"nextID": "game-over"
+	       		}
+	       	}
+       }, 
+      "2": { 
+	        "id": 2, 
+	       	"question": "this is question two",
+	       	"answers": {
+	       		"choice-1": {
+	       			"label": "this is choice number 3, what will happen?",
+	       			"nextID": "choice/3"
+	       		},
+	       		"choice-2": {
+	       			"label": "this is choice number 4, what will happen?",
+	       			"nextID": "game-over"
+	       		}
+	       	}
+       }, 
+       "3": { 
+	        "id": 3, 
+	       	"question": "this is question three",
+	       	"answers": {
+	       		"choice-1": {
+	       			"label": "this is choice number 5, what will happen?",
+	       			"nextID": "choice/4"
+	       		},
+	       		"choice-2": {
+	       			"label": "this is choice number 6, what will happen?",
+	       			"nextID": "game-over"
+	       		}
+	       	}
+       }, 
+       "4": { 
+	        "id": 4, 
+	       	"question": "this is question four",
+	       	"answers": {
+	       		"choice-1": {
+	       			"label": "this is choice number 7, what will happen?",
+	       			"nextID": "success"
+	       		},
+	       		"choice-2": {
+	       			"label": "this is choice number 8, what will happen?",
+	       			"nextID": "game-over"
+	       		}
+	       	}
+       } 
+
+    }
+    , 
+
+    "endings":[
+	    { 
+		        "id":999, 
+		       	"label": "THE END"	
+	    } 
+
+    ]
+}
