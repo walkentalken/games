@@ -1,4 +1,3 @@
 # The Game
 
-Sample App Made In AngularJS
-
+Sample App Made In AngularJS, node.
