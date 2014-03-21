@@ -16,7 +16,7 @@ gameControllers.controller('PageController', ['$scope', 'Choice',
 gameControllers.controller('ChoiceController', ['$scope', 'Choice', '$routeParams',
   function($scope, Choice, $routeParams) {
     $scope.choices = Choice.getAllChoices();
-    $scope.test = "This is the Choice Controlelr";
+    $scope.test = "This is the Choice Controller";
     $scope.choiceID = $routeParams.id;
 
     $scope.choicesArray = Choice.getAllChoices( function(choice) {
